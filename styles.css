@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--Off-Black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Dark-Grey);
+    border-radius: 1em;
+    padding: 0 3em;
+    
+}
+
+.image {
+    border-radius: 100%;
+    width: 30%;
+    margin-top: 2em;
+}
+.name {
+    color: var(--White);
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.7em;
+}
+
+.location {
+    color: var(--Green);
+    font-weight: bold;
+    text-align: center;
+    padding: 0.7em 0 2em 0;
+    font-size: 1em;
+}
+
+.person-description {
+    color: var(--White);
+    padding-bottom: 1.5em;
+    font-size: 0.95em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+
+.links:hover {
+    
+}
+
+.link {
+    text-decoration: none;
+    color: var(--White);
+    background-color: var(--Grey);
+    width: 300px;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.link:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    transition: .1s ease-in-out;
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    padding-top: 2em;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
