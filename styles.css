@@ -68,10 +68,6 @@ body {
     padding-bottom: 2em;
 }
 
-.links:hover {
-    
-}
-
 .link {
     text-decoration: none;
     color: var(--White);
